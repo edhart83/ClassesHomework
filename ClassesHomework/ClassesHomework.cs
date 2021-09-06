@@ -24,7 +24,7 @@ namespace ClassesHomework
         }
 
         [TestMethod]
-        public void SingleParameterConstructorAndProperty() 
+        public void SingleParameterConstructorAndProperty()
         {
             // Goal 1: Extend your Dog class to additionally support a constructor that takes in a dog breed.
             // Goal 2: Extend your Dog class to support a property named Breed that gets set with the value of the constructor argument.
@@ -34,7 +34,7 @@ namespace ClassesHomework
         }
 
         [TestMethod]
-        public void DefaultAgeProperty() 
+        public void DefaultAgeProperty()
         {
             // Goal 1: Extend your Dog class to additionally support a property Named Age.
             // Goal 2: Extend your Dog class to set Age of all dogs to 1 by default, simulating dog birth.
@@ -47,7 +47,7 @@ namespace ClassesHomework
         }
 
         [TestMethod]
-        public void DualParameterConstructorThatTakesAgeAndBreed() 
+        public void DualParameterConstructorThatTakesAgeAndBreed()
         {
             // Goal 1: Extend your Dog class to additionally support another constructor overload that takes both breed and age.
             // Goal 2: Your dog class must set its properties Age and Breed with these values during construction.
@@ -58,7 +58,7 @@ namespace ClassesHomework
         }
 
         [TestMethod]
-        public void SpeakMethod() 
+        public void SpeakMethod()
         {
             // Goal 1: Extend your Dog class to support a method Named Speak(), which takes no arguments and returns "woof!" for dogs.
             // Goal 2: Extend your Dog class to support a method Named Speak() overloaded to take argument, the message you want your dog to speak, and returns that message.
@@ -69,7 +69,7 @@ namespace ClassesHomework
         }
 
         [TestMethod]
-        public void SitMethod() 
+        public void SitMethod()
         {
             // Goal 1: Extend your Dog class to support a property named IsSitting, that relays the status of the Dog and indicates whether its sitting or not.
             // IsSitting should start out as False for dogs whos Sit Method has not been called.
