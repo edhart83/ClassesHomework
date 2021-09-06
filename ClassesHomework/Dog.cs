@@ -6,32 +6,29 @@ using System.Threading.Tasks;
 
 namespace ClassesHomework
 {
-    public class Dog {
+    public class Dog : Animal{
 
-        public string Breed;
-        public int Age = 1;
-        public string whatDoesTheDogSay = "woof!";
+        //private string Breed;
+        //private int Age = 1;
+        //private string whatDoesTheDogSay = "woof!";
+        //private bool IsSitting = false;
         public Dog()
         {
-
+            Species = "dog";
+            whatDoesTheFoxSay = "woof!";
         }        
         public Dog(string breed)
         {
             Breed = breed;
+            whatDoesTheFoxSay = "woof!";
         }
         public Dog(string breed, int newage)
         {
             Breed = breed;
             Age = newage;
+            whatDoesTheFoxSay = "woof!";
         }
-        public string Speak()
-        {
-            return whatDoesTheDogSay;
-        }
-        public string Speak(string sound)
-        {
-            whatDoesTheDogSay = sound;
-            return whatDoesTheDogSay;
-        }
+                
+        
     }    
 }
