@@ -8,16 +8,16 @@ namespace ClassesHomework
 {
     public class Animal
     {
-        //protected string Breed;
+        public string Breed {get; protected set;}
         //protected int Age;        
         //protected bool IsSitting;
         //protected string Species;
         //protected string whatDoesTheFoxSay;
-        public string Breed;
-        public int Age;        
-        public bool IsSitting;
-        public string Species;
-        public string whatDoesTheFoxSay;
+        
+        public int Age { get; protected set; }
+        public bool IsSitting { get; protected set; }
+        public string Species { get; protected set; }
+        public string whatDoesTheFoxSay { get; protected set; }
 
         public Animal()
         {
