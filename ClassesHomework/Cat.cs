@@ -8,12 +8,6 @@ namespace ClassesHomework
 {
     public class Cat : Animal
     {
-
-        
-        //private string Breed;
-        //private int Age = 1;
-        //private string whatDoesTheFoxSay = "woof!";
-        //private bool IsSitting = false;
         public Cat()
         {
             Species = "cat";
@@ -29,8 +23,15 @@ namespace ClassesHomework
             Breed = breed;
             Age = newage;
             whatDoesTheFoxSay = "meow!";
-        }        
-        
+        }
+        public override string Speak()
+        {
+            return base.Speak();
+        }
+        public override string Speak(string sound)
+        {
+            return base.Speak(sound);
+        }
     }
     // Write your Cat class here
 }

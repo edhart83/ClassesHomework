@@ -14,21 +14,28 @@ namespace ClassesHomework
         //private bool IsSitting = false;
         public Dog()
         {
-            Species = "dog";
-            whatDoesTheFoxSay = "woof!";
+            this.Species = "dog";
+            this.whatDoesTheFoxSay = "woof!";
         }        
         public Dog(string breed)
         {
-            Breed = breed;
-            whatDoesTheFoxSay = "woof!";
+            this.Breed = breed;
+            this.whatDoesTheFoxSay = "woof!";
         }
         public Dog(string breed, int newage)
         {
-            Breed = breed;
-            Age = newage;
-            whatDoesTheFoxSay = "woof!";
+            this.Breed = breed;
+            this.Age = newage;
+            this.whatDoesTheFoxSay = "woof!";
         }
-                
-        
+        public override string Speak()
+        {
+            return base.Speak();
+        }
+        public override string Speak(string sound)
+        {
+            return base.Speak(sound);
+        }
+
     }    
 }

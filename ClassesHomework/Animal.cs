@@ -8,20 +8,29 @@ namespace ClassesHomework
 {
     public class Animal
     {
+        //protected string Breed;
+        //protected int Age;        
+        //protected bool IsSitting;
+        //protected string Species;
+        //protected string whatDoesTheFoxSay;
         public string Breed;
-        public int Age = 1;
-        public bool IsSitting = false;
-        public string Species = "unknown";
-        public string whatDoesTheFoxSay = "What am I?";
+        public int Age;        
+        public bool IsSitting;
+        public string Species;
+        public string whatDoesTheFoxSay;
+
         public Animal()
         {
-
+            Age = 1;
+            IsSitting = false;
+            Species = "unknown";
+            whatDoesTheFoxSay = "What am I?";
         }
-        public string Speak()
+        public virtual string Speak()
         {
             return whatDoesTheFoxSay;
         }
-        public string Speak(string sound)
+        public virtual string Speak(string sound)
         {
             whatDoesTheFoxSay = sound;
             return whatDoesTheFoxSay;
