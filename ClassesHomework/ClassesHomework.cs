@@ -119,7 +119,7 @@ namespace ClassesHomework
             // The goal of this is to remind you that controlling who can set your members is valueable.
             // Ill be grading this manually.
 
-            //Dog dog = new Dog();
+            Dog dog = new Dog();
             //dog.Breed = "not able to set"; // This should not compile
             //dog.IsSitting = false; // this should not compile
             //dog.Age = 123; // this should not compile
