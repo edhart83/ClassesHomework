@@ -6,5 +6,8 @@ using System.Threading.Tasks;
 
 namespace ClassesHomework
 {
-    // write your Animal class here. 
+    public class Animal
+    {
+
+    }
 }
